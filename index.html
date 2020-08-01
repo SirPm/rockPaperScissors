@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="modals.css">
+    <link rel="stylesheet" href="mediaQueries.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@400;600;700&display=swap" rel="stylesheet">
+  
+    <title>Frontend Mentor | Rock, Paper, Scissors</title>
+</head>
+<body>
+    
+    <header>
+        <ul>
+            <li>Rock</li>
+            <li>Paper</li>
+            <li>Scissors</li>
+        </ul>
+        <div id="score-div">
+            <p>SCORE</p>
+            <h2 id="score">12</h2>
+        </div>
+    </header>
+
+    <main>
+        <i class="paper">
+            <img src="images/icon-paper.svg" alt="">
+        </i>
+        <i class="scissors">
+            <img src="images/icon-scissors.svg" alt="">
+        </i>
+        <i class="rock">
+            <img src="images/icon-rock.svg" alt="">
+        </i>
+
+    </main>
+
+
+    <div id="modal-choices">
+        <!-- <div>
+            <h5>You Picked</h5>
+            <i id="paper">
+                <img src="images/icon-paper.svg" alt="">
+            </i>
+        </div>
+
+        <div id="result">
+            <h1 id="text">YOU LOSE</h1>
+            <button id="playAgain">Play Again</button>
+        </div>
+
+        <div>
+            <h5>The House Picked</h5>
+            <i id="scissors">
+                <img src="images/icon-scissors.svg" alt="">
+            </i>
+        </div> 
+        -->
+    </div>
+    <div id="restart-modal">
+        <!-- <button id="restart">Restart Game</button> -->
+    </div>
+
+    <div id="modal-rules">
+        <div id="rules">
+            <div id="rules-heading">
+                <h3>RULES</h3>
+                <p id="cancel-rules">X</p>
+            </div>
+            <img src="images/image-rules.svg" alt="">
+        </div>
+    </div>
+
+    <footer>
+        <input type="button" value="Rules" id="rulesBtn">  
+    </footer>
+
+    <div class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+        Coded by <a href="#">SirPm a.k.a Lupeim</a>.
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
